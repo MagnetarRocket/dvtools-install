@@ -136,6 +136,18 @@ make
 make install
 cd ..
 
+cd BackgroundImages
+make install
+cd ..
+
+cd Xcursors
+./GenCursors.sh
+make install
+cd ..
+
+cd IconImages
+make install
+cd ..
 
 cd ~
 
